@@ -52,6 +52,11 @@ a.nav-link:after {
     transition: width 0.5s;
 }
 
+.navbar-brand {
+    padding-top: 0;
+    font-size: 30px;
+}
+
 .btn {
     border: none;
     outline: none;
@@ -119,4 +124,21 @@ a.nav-link:after {
     font-weight: 500;
     letter-spacing: 1.5px;
     margin-top: 30px;
+}
+
+#pricing-main {
+    padding-top: 140px;
+    display: block;
+}
+
+.pricing-title {
+    text-align: center;
+}
+
+.pricing-title-1 {
+    font-family: 'LexendDeca';
+    font-size: 45px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
 }
