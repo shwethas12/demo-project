@@ -17,7 +17,7 @@ body {
 a.nav-link {
     color: rgba(2, 28, 82, 0.95)!important;
     padding: 10px 20px !important;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Sofia';
 }
 
@@ -39,6 +39,19 @@ a.nav-link {
     list-style: none;
 }
 
+a.nav-link:hover:after {
+    width: 100%;
+}
+
+a.nav-link:after {
+    content: "";
+    display: block;
+    width: 0;
+    padding-top: 2px;
+    border-bottom: 2px solid rgba(2, 28, 82, 0.95);
+    transition: width 0.5s;
+}
+
 .btn {
     border: none;
     outline: none;
@@ -54,4 +67,56 @@ a.nav-link {
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1.7px;
+}
+
+.image-section{
+    margin-top: 130px;
+}
+
+.image-container {
+    max-width: 1500px;
+}
+
+.image-background {
+    width: 100%;
+    background-color: #3074f9cc;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 50px 0;
+}
+
+.image-content {
+    padding: 30px 0 30px 80px;
+}
+
+.image-content h1 {
+    color: #fff;
+    font-size: 55px;
+    line-height: 66px;
+    font-family: 'LexendDeca';
+}
+
+.image-content p {
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+.image-sec {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn-get-started {
+    color: rgb(255, 255, 255);
+    background: rgba(2, 28, 82, 0.95);
+    padding: 10px 27px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
 }
