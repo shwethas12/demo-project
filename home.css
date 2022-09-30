@@ -248,10 +248,6 @@ a.nav-link:after {
     width: 135px;
 }
 
-.exchange-1 img {
-    filter: grayscale(100%) opacity(90%);
-}
-
 .exchange-title h2:before {
     border-top: 1.5px solid rgba(168, 168, 168, 0.37);
     content: "";
