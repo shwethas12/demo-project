@@ -175,8 +175,12 @@ a.nav-link:after {
     margin-bottom: 75px;
 }
 
+.feature-4, .feature-5, .feature-6 {
+    margin-bottom: 10px;
+}
+
 #pricing-main {
-    padding-top: 140px;
+    padding-top: 10px;
     display: block;
 }
 
@@ -190,4 +194,111 @@ a.nav-link:after {
     margin-bottom: 5px;
     padding-left: 15px;
     padding-right: 10px;
+}
+
+.pricing-column-1 {
+    font-size:35px;
+    padding-top: 100px;
+}
+
+#supported-exchange-main {
+    padding: 120px 0 75px 0;
+    text-align: center;
+    max-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.exchange-title h2.background-title {
+    position: relative;
+    z-index: 1;
+}
+.exchange-title h2 {
+    font-size: 20px;
+    font-family: 'sofia';
+    color: rgba(2, 28, 82, 0.84);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.exchanges-container {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.exchange {
+    display: inline-block;
+    align-content: center;
+    padding: 10px;
+}
+
+.exchange-title span {
+    background: #fff;
+    padding: 0 15px;
+    font-size: 40px;
+}
+
+.exchange img {
+    width: 135px;
+}
+
+.exchange-1 img {
+    filter: grayscale(100%) opacity(90%);
+}
+
+.exchange-title h2:before {
+    border-top: 1.5px solid rgba(168, 168, 168, 0.37);
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 96%;
+    z-index: -1;
+}
+
+.exchanges-container:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 96%;
+    padding-top: 12px;
+    border-bottom: 1.5px solid rgba(168, 168, 168, 0.37);
+}
+
+#footer {
+    margin-top: 100px;
+}
+
+.footer-bg {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: #3074f9cc;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-column {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+.footer-column a, .footer-column span {
+    font-family: "Sofia";
+    color: #0F183B;
+    margin-bottom: 16px;
+    ont-size: 20px;
 }
